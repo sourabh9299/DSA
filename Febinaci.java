@@ -7,10 +7,15 @@ public class Febinaci {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Number");
         int n = sc.nextInt();
-        int num = 0 ;
+        int a = 0 ;
+        int b = 1;
+        int c;
+
         for (int i=0 ;i< n ; i++){
-            num = num + n ;
-            System.out.print(" "+n);
+//            Fabinaci no.
+            System.out.println(a);
+             c = a +b ; a=b; b=c;
+
         }
     }
 }
