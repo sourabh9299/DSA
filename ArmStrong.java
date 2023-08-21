@@ -6,7 +6,6 @@ public class ArmStrong {
         int num = sc.nextInt();
         int temp = num;
         int sum=0;
-
         while (temp>0){
             int r = temp%10;
             r = r*r*r;
