@@ -6,9 +6,13 @@ public class FindCharcter {
         System.out.println("eneter Name");
         String Name = sc.next();
         System.out.println("enter Charcter");
-        int ch =sc.nextInt();
-        for (int i=0;i<=Name.length();i++){
+        String ch =sc.next();
+        for(int j =0;j<Name.length();j++){
+            String tocheck=Name.charAt(j);
+            if(tocheck==ch){
 
+            }
         }
+
     }
 }
