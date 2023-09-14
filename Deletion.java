@@ -12,15 +12,24 @@ public class Deletion {
             ar[i] = sc.nextInt();
         }
 
-        System.out.println("enter Position to delete");
+
+
+
+        System.out.println("Enter Position to delete");
         int pos = sc.nextInt();
 
-        System.out.println("Enter Element");
-        int elem = sc.nextInt();
-
-        for(int i=1;i<=5;i++){
-            System.out.println("check");
+        if (pos >= 0 && pos < size) {
+            for (int i = pos; i < size - 1; i++) {
+                ar[i] = ar[i + 1];
+            }
+            size--; // Reduce the size of the array
+            System.out.println("Element at position " + pos + " deleted successfully.");
+        } else {
+            System.out.println("Invalid position. Element not deleted.");
         }
 
+       for(int j:ar){
+           System.out.println(j);
+        }
     }
 }
