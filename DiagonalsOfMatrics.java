@@ -20,7 +20,7 @@ public class DiagonalsOfMatrics {
             }
         }
 
-//        Print Diagonals 
+//        Print Diagonals
         for(int i=0;i<row;i++){
             System.out.print(matrics[i][i]+" ");
         }

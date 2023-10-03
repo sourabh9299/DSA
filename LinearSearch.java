@@ -2,14 +2,15 @@ import java.util.Scanner;
 
 public class LinearSearch {
     public static void main(String[] args) {
-        System.out.println("enter Array");
         Scanner sc= new Scanner(System.in);
+        System.out.println("Enter Size");
         int size = sc.nextInt();
         boolean check = false;
 
-        int arr[]=new int[size];
+        int []arr=new int[size];
 
         for(int i=0;i<size;i++){
+            System.out.println("Enter array of "+"["+i+"]");
             arr[i]= sc.nextInt();
         }
 
@@ -24,7 +25,7 @@ public class LinearSearch {
         }
 
         if(check){
-            System.out.printf("found");
+            System.out.print( nmb+" : found");
         }
     }
 }

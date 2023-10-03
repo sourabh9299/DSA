@@ -1,5 +1,5 @@
-public class ConvertDecimnal_intoBinary {
+public class Recurrsion {
     public static void main(String[] args) {
-
+        
     }
 }

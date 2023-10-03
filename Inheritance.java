@@ -1,27 +1,27 @@
 import java.util.Scanner;
 
 public class Inheritance {
-    int salary, bonous;
+    int salary, bonus;
     void Inputs(){
-        Scanner sc = new Scanner(System.in);
 
+        Scanner sc = new Scanner(System.in);
         System.out.println("Input Salary");
         salary = sc.nextInt();
-        System.out.println("Input Bonous");
-        bonous= sc.nextInt();
+        System.out.println("Input bonus");
+        bonus= sc.nextInt();
 
     }
 
 }
 
-class caluclation extends Inheritance{
+class Caluclation extends Inheritance{
     void calculation(){
-    int sum = salary+bonous;
+    int sum = salary+bonus;
         System.out.println(sum);
     }
 
     public static void main(String[] args) {
-     caluclation c = new caluclation();
+     Caluclation c = new Caluclation();
      c.Inputs();
      c.calculation();
     }
