@@ -5,10 +5,10 @@ public class DS_MANAVRACHNA {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input array Size");
         int n = sc.nextInt();
-        int arr[] = new int[n];
+        int []arr = new int[n];
 
         for (int i = 0; i < n; i++) {
-            System.out.println("input array value [" + i + "]");
+            System.out.println("input array value [" + i+ "]");
             arr[i] = sc.nextInt();
         }
 
