@@ -8,7 +8,7 @@ public class FindCountLastwordOfString {
         for (int i=n; i>=0; i--) {
             // System.out.print("first");
             char a = str1.charAt(i);
-            if ( a == ' ' ) {
+            if ( a ==  ' ' ) {
                 // check=true;
                 if(check>0){
                     break;
